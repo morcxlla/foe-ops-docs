@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
 
 const discord = 'https://discord.gg/grZbJUsF3K'
+const srcCode = 'https://github.com/morcxlla/foe-ops-docs'
 
 const config: DocsThemeConfig = {
 
@@ -88,21 +89,16 @@ const config: DocsThemeConfig = {
   footer: {
     text:
       <p>
-        Creado por <a rel="noreferrer" href="https://github.com/morcxlla" target="_blank">Morcxlla_</a> con <a rel="noreferrer" href="https://nextra.site/" target="_blank">Nextra</a>
+        Creado por <a rel="noreferrer" href="https://github.com/morcxlla" target="_blank" style={{color: "#72aa25"}}>Morcxlla_</a> con <a rel="noreferrer" href="https://nextra.site/" target="_blank" style={{color: "#72aa25"}}>Nextra</a>
       </p>
     ,
   },
 
-  project: {
-    link: 'https://github.com/morcxlla/foe-ops-docs', // Link del repositorio de GitHub
-  },
-  chat: {
-    link: discord, // Configurado al principio del documento
-  },
-  docsRepositoryBase: 'https://github.com/morcxlla/foe-ops-docs/tree/main', // Link del repositorio de GitHub con la ruta de la rama
+  project: { link: srcCode },
+  chat: { link: discord },
+  docsRepositoryBase: `${srcCode}/tree/main`,
   
-  // Dirección del texto
-  direction: 'ltr', // NO MODIFICAR
+  direction: 'ltr',
 
   // Langs
   themeSwitch: {
@@ -124,7 +120,7 @@ const config: DocsThemeConfig = {
     text: 'Editar esta pagina',
   },
   feedback: {
-    content: '¿Preguntas o errores? →' // Question? Give us feedback →
+    content: '¿Preguntas o errores? →'
   },
 }
 
