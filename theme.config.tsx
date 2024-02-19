@@ -7,6 +7,8 @@ import { useConfig } from 'nextra-theme-docs'
 const discord = 'https://discord.gg/grZbJUsF3K'
 const srcCode = 'https://github.com/morcxlla/foe-ops-docs'
 
+const debug = 'l6a4dacym'
+
 const config: DocsThemeConfig = {
 
   gitTimestamp: ({ timestamp }) => {
