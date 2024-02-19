@@ -76,7 +76,7 @@ const config: DocsThemeConfig = {
         <meta name="twitter:title" content={frontMatter.title || 'FOE'}/>
         <meta
           name="twitter:description"
-          content={frontMatter.description || 'Comunidad Milsim PvPvE [ES]'}
+          content={frontMatter.description}
         />
         <meta property="twitter:domain" content={url}/>
         <meta property="twitter:url" content={url}/>
