@@ -28,7 +28,7 @@ const config: DocsThemeConfig = {
   darkMode: true,
 
   banner: {
-    key: 'discord', // ID (Para guardar cuando un usuario lo cierra (si se cambia el banner debe cambiarse el id para que todos lo vean adecuadamente))
+    key: 'discord-03uk77pqd', // ID (Para guardar cuando un usuario lo cierra (si se cambia el banner debe cambiarse el id para que todos lo vean adecuadamente))
     dismissible: true, // PUEDE CERRARSE?
     text: (
       <a href={discord} target="_blank">
