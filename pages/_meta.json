@@ -1,9 +1,34 @@
 {
   "index": "Introduction",
+
+  "rules": {
+    "type": "separator",
+    "title": "NORMAS"
+  },
+  "normas-basicas": "Normas básicas",
+  
+  "guide": {
+    "type": "separator",
+    "title": "GUIAS"
+  },
+  "equipamiento": "Equipamiento básico",
+
+  "techhelp": {
+    "type": "separator",
+    "title": "AYUDA TÉCNICA"
+  },
+  
+  "ts3": "Team Speak 3 (TS3)",
+
   "contact": {
     "title": "Contact ↗",
     "type": "page",
     "href": "https://twitter.com/shuding_",
     "newWindow": true
+  },
+  
+  "debug": {
+    "type": "separator",
+    "title": "No Cat."
   }
 }
