@@ -94,7 +94,7 @@ const config: DocsThemeConfig = {
   },
 
   project: {
-    link: 'https://github.com/McFlurr1/foe-ops-docs', // Link del repositorio de GitHub
+    link: 'https://github.com/morcxlla/foe-ops-docs', // Link del repositorio de GitHub
   },
   chat: {
     link: discord, // Configurado al principio del documento
