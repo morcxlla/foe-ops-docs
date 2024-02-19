@@ -71,7 +71,7 @@ const config: DocsThemeConfig = {
         <meta property="og:title" content={frontMatter.title || 'FOE [ES]'} />
         <meta
           property="og:description"
-          content={frontMatter.description || 'Comunidad Milsim PvPvE [ES]'}
+          content={frontMatter.description}
         />
         <meta property="og:image" content="/seo_img.jpg"/>
 
