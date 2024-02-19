@@ -65,17 +65,17 @@ const config: DocsThemeConfig = {
         <meta property="og:type" content="website"></meta>
 
         <meta property="og:url" content={url} />
-        <meta property="og:title" content={frontMatter.title || 'FOE'} />
+        <meta property="og:title" content={frontMatter.title || 'FOE [ES]'} />
         <meta
           property="og:description"
-          content={frontMatter.description || 'Comunidad Milsim PvPvE'}
+          content={frontMatter.description || 'Comunidad Milsim PvPvE [ES]'}
         />
         <meta property="og:image" content="/seo_img.jpg"/>
 
         <meta name="twitter:title" content={frontMatter.title || 'FOE'}/>
         <meta
           name="twitter:description"
-          content={frontMatter.description || 'Comunidad Milsim PvPvE'}
+          content={frontMatter.description || 'Comunidad Milsim PvPvE [ES]'}
         />
         <meta property="twitter:domain" content={url}/>
         <meta property="twitter:url" content={url}/>
